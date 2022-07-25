@@ -1,0 +1,18 @@
+udemy course
+
+shebang line is #!, tells shell that it will be using Bash to interpret the script.
+
+Beginning:
+#!/bin/bash
+Middle:
+commands
+End:
+(exit code): "exit 0"
+
+that is, all bash scripts must have /bin/bash right after the shebang line.
+
+the exit codes are just written "exit 0"
+
+author, date of creation, 
+
+**************Some of the scripts have to be in a bash_course file in the home directory in order to work correctly.

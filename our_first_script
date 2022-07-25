@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: William Z Chadwick
+# Date Created: 07/25/2022
+# Last Modified: 07/25/2022
+
+# Description: 
+# Prints "This is my first script" to the terminal.
+
+# Usage:
+# our_first_script
+
+echo "This is my first script."
+exit 0

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: William Z Chadwick
+# Date Created: 07/25/2022
+# Last Modified: 07/25/2022
+
+# Description:
+# This is a short backup script for my home folder.
+
+# Usage:
+# backup_script
+
+tar -cvf ~/bash_course/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+exit 0
