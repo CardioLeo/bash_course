@@ -1,0 +1,7 @@
+# Author: William Z Chadwick
+# Date Created: 08/05/2022
+# Date Modified:
+# Description:
+# Usage:
+
+1. script to create in turn all of my Coding directories and then to clone each of my repos into the correct spots. This would be feel like a boss script at my level.
