@@ -15,6 +15,6 @@
 
 # author, date of creation, 
 
-# *** Scripts have to be in a bash_course file in the home directory in order to work correctly.
+# *** Scripts have to be in a bash_scripts file in the home directory in order to work correctly.
 # *** I don't know where else they are supposed to be referenced from.
 # *** Also, you have to remember to "sudo chmod 744 <script.name>" in order for them to work.
