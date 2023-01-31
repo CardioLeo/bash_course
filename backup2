@@ -8,16 +8,13 @@
 
 #!/bin/bash
 
-echo "Hello!! ${USER^}"
+echo "Hello ${USER^}"
 echo "I will now back up your home directory ${HOME}"
-
 currentdir=$(pwd)
-
 echo "You are running this script from ${currentdir},"
+echo "but I will save the backup in ~/Backups/bashTarBackUps"
 echo ". . ."
-echo "so I will save the backup in ${currentdir}"
-echo ". . ."
-tar -cf ~/bash_scripting/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
+tar -cf ~/Backups/bashTarBackUps/"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/* 2>/dev/null
 echo ". . ."
 echo "backup2 script successfully completed"
 exit 0
