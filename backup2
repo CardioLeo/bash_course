@@ -1,11 +1,11 @@
-# Author:
-# Date Created:
-# Date Modified:
+# Author: William Z Chadwick (echocslsk)
+# Date Created: 01/30/2023
+# Date Modified: 01/30/2023
 # Description:
-# Usage:
+# Usage: backup2
 
 #!
 
 
 
-echo "Hello!!"
+echo "Hello!! ${USER^}"
