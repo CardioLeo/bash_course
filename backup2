@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Author: William Z Chadwick (echocslsk)
 # Date Created: 01/30/2023
 # Date Modified: 01/30/2023
@@ -5,6 +7,10 @@
 # Usage: backup2
 
 #!/bin/bash
+
 echo "Hello!! ${USER^}"
 echo "I will now back up your home directory ${HOME}"
-${}
+
+currentdir=$(pwd)
+
+echo "You are running this script from ${currentdir}, so I will save the backup in ${currentdir}"
