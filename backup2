@@ -4,8 +4,7 @@
 # Description:
 # Usage: backup2
 
-#!
-
-
-
+#!/bin/bash
 echo "Hello!! ${USER^}"
+echo "I will now back up your home directory ${HOME}"
+${}
