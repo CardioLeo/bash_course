@@ -1,0 +1,11 @@
+# test
+
+#
+
+# tested the commands:
+
+# "echo "test" > placeholder.txt"
+
+# and
+
+# "cat placeholder.txt"
