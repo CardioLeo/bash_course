@@ -9,3 +9,5 @@
 
 # the main tar command - although I probably need to change the path
 tar -cvf ~/bash_course/my_backup_"$(date +%d-%m-%Y-%H-%M-%S)".tar ~/* 2>/dev/null
+
+exit 0
