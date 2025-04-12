@@ -1,0 +1,24 @@
+# 
+
+---
+
+videos, projects, quizes
+
+1-5
+41, proj vid
+48, proj vid
+51, proj vid
+57, proj vid
+59, proj vid
+
+6-10
+62, proj vid
+68, proj vid
+71, proj vid
+78, proj vid
+
+11-14
+83, proj vid
+84, proj vid
+section 9 [87] assignment 1, 5+ problems
+101, proj vid

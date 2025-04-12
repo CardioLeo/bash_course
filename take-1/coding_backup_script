@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: William Z Chadwick
+# Date Created: 07/25/2022
+# Last Modified: 07/25/2022
+
+# Description:
+# This is a short backup script for my coding folder, specifically the bash scripts folder
+
+# Usage:
+# coding_backup_script
+
+tar -cvf ~/Documents/Coding/Linux/bash_course/my_coding_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/Documents/Coding/Linux/bash_course/ 2>/dev/null
+exit 0

@@ -1,0 +1,19 @@
+# Author: William Z Chadwick
+# Date Created: 07/28/2022
+# Date Modified: 07/28/2022
+
+# Description: A bash script, designed apart from the bash course, that will take the file names currently in my main Coding directories and sub-directories and save them into a file with the current date. 
+
+# Usage: currentCoding
+
+#!/bin/bash/
+
+touch ~/Documents/Coding/currentCoding.txt
+
+cd ~/Documents/Coding/
+
+ls -a * >> currentCoding.txt && { echo " at time  "; date; } >> ~/Documents/Coding/currentCoding.txt
+
+echo "Record Taken of Current Coding"; date;
+
+exit 0

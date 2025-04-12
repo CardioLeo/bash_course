@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: William Z Chadwick
+# Date Created: 01/30/2023
+# Date Modified: 01/30/2023
+
+# Description:
+#
+
+# Usage:
+#
+
+echo $((4+2))
+exit 0
